@@ -8,3 +8,7 @@ for (let i=0; i<myNumbers.length; i++){
     console.log("Array at index : ", i, " is ", myNumbers[i]);
     
 }
+
+let immutableArr =[1,2,3,4,5];
+let newArr=immutableArr.map(item => item*2);
+console.log("New Array is : ",newArr);
